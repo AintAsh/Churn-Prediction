@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # ---------------- CONFIG ---------------- #
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://churn-prediction-q232.onrender.com"
 
 st.set_page_config(
     page_title="Customer Churn Predictor",
